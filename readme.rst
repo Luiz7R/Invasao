@@ -1,70 +1,39 @@
 ###################
-What is CodeIgniter
+Invasão
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Invasao é um projeto de rede social usando as tecnologias PHP: 7.4.1, Javascript, Bootstrap/CSS : 4.4.1
 
 *******************
-Release Information
+Informações
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Foram desenvolvidos as opções ate o momento:
 
-**************************
-Changelog and New Features
-**************************
+Sistema de : Criar contas, Criar publicações: opção de editar ou apagar publicação, comentários em publicações, enviar pedidos de amizade, notificação de pedidos de amizade, aceitar pedidos de amizade, Buscar usuários.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Verificações ao criar contas, criar publicações ou postar comentários.
 
 *******************
-Server Requirements
+PS do Projeto
 *******************
 
-PHP version 5.6 or newer is recommended.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Página de Login :
+![paginaInicial-Invasao](https://user-images.githubusercontent.com/54550561/118534985-476b8f80-b720-11eb-886b-17de894a5c0f.jpg)
 
-************
-Installation
-************
+Página Principal/Timeline 
+![contaLogada-Invasao](https://user-images.githubusercontent.com/54550561/118535372-c5c83180-b720-11eb-8e3d-80d05232a98c.jpg)
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Publicação e Comentário
+![pubComentario-Invasao](https://user-images.githubusercontent.com/54550561/118535682-26576e80-b721-11eb-8d82-c6a9a2671a72.jpg)
 
-*******
-License
-*******
+Nome pesquisado
+![nomesBarraPQ-Invasao](https://user-images.githubusercontent.com/54550561/118535982-85b57e80-b721-11eb-89f5-85abb2dbc57b.jpg)
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+Página de Pesquisa
+![paginaPesquisa-Invasao](https://user-images.githubusercontent.com/54550561/118536182-c9a88380-b721-11eb-97c4-e6937989ca83.jpg)
 
-*********
-Resources
-*********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
