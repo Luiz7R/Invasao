@@ -1,0 +1,307 @@
+body {
+	background-color: #f2e602 !important;
+}
+
+.form-inline {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.form-inline label {
+	margin: 5px 10px 5px 0;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.cracc:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.center {
+	position: absolute;
+	float: left;
+	left: 50%;
+	top: 54%;
+	transform: translate(-50%, -50%);
+  }
+
+   .modal {
+	display: none; /* Hidden by default *
+	position: fixed; /* Stay in place *
+	z-index: 1; /* Sit on top *
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width *
+	height: 100%; /* Full height *
+	overflow: auto; /* Enable scroll if needed */
+	/* background-color: #474e5d; */
+	padding-top: 50px;
+	opacity: 0.97;
+  }  
+
+ .btn-black {
+	background: #555555;
+}
+.form-inline input {
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.form-inline button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+	border: 1px solid #ddd;
+	color: white;
+}
+
+*{box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+	width: 100%;
+	padding: 15px;
+	/* margin: 5px 0 22px 0; */
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+  
+hr {
+	border: 1px solid #f1f1f1;
+	margin-top: 25px;
+}
+
+/*  set styles for all buttons */
+
+/* button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 9px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+} */
+
+button:hover {
+	opacity:1;
+}
+
+/* extras styles for the cancel button */
+.cancelbtn {
+	padding: 14px 20px;
+	background-color: #f44336;
+}
+
+.signupbtn {
+	background-color: #4CAF50;
+	padding: 14px 20px;
+}
+
+/* float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+}
+
+/* add padding to container elements */
+.container {
+	padding: 16px;
+}
+/* clear floats */
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+		width: 100%;
+	}
+}
+
+.form-inline button:hover {
+	background-color: royalblue;
+}
+
+.pIVS {
+	border: 1px solid gray;
+	border-radius: 7px;
+	margin-top: 25px;
+	margin-left: 18px;
+	margin-bottom: 25px;
+}
+/* Adiciona responsividade , mostra o form control de forma vertical
+ em vez da forma horizontal em telas menores que 800px de largura */
+
+@media (max-width: 800px) {
+	.form-inline input {
+		margin: 10px 0;
+	}
+
+	.form-inline {
+		flex-direction: column;
+		align-items: stretch;
+	}
+} 
+
+
+.postIVS {
+	margin-bottom: 30px;
+}
+#txa1 {
+	border-radius: 20px;
+}
+#envpstg {
+	border-radius: 10px;
+	margin-top: -39px;
+}
+header
+{
+	background:yellow;
+	height:100px;
+}
+.cardstyles{
+	background-color: #343a40;
+}
+main
+{
+	height:100px;
+}
+div.stscd {
+	border: 2px solid red;
+	margin-bottom: 5px;
+	min-width: 40vw;
+	background-color: #343a40;
+}
+
+.cominvs {
+	margin: 10 10 10 5;
+	border-radius: 9px;
+	background-color: #454e57;
+}
+
+.cominvsText {
+	border-left: 2px;
+	text-align: center;
+	margin-left: 15px;
+	color: white;
+}
+
+.cominvsTextp {
+	color: white;
+	margin-left: 14px;
+	margin-right: 2px;
+}
+
+input.txInvs {
+	margin: 10 10 10 5;
+	border-radius: 9px;
+	color: white;
+	background-color: #454e57;
+} 
+
+.cdinvs {
+	margin-bottom: 5px;
+	border-radius: 15px;
+	border:22px solid red;
+}
+.hdstls {
+	color: white;
+	margin-bottom: -10px;
+}
+#btnpst {
+	margin-left: 20px;
+	margin-top: 1px;
+}
+#mainPage {
+	padding-top: 20px;
+}
+/* aside
+{
+	/*background:green;*
+	height:100px;
+}
+
+footer
+{
+	background:purple;
+	height:100px;
+} */
+
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+ .cracc:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.pstCom {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.wrapper-preview 
+{
+	padding: 50px;
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.25);
+	border-radius: 10px;
+	text-align:center;
+}
+
+.wrapper-box
+{
+	padding: 10px;
+	margin-bottom: 20px;
+	background: #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.25);
+	border-radius: 10px;
+}
+
+.wrapper-box-title
+{
+	font-size: 20px;
+	line-height: 100%;
+	color: #000;
+	padding-bottom: 8px;
+}
+
+.wrapper-box-description
+{
+	font-size: 14px;
+	line-height: 120%;
+	color: #000;
+}
+
+#friend_request_list li
+{
+	padding:10px 12px;
+	border-bottom: 1px solid #eee;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.mgCol 
+{
+	margin-top: 50px ;
+}
