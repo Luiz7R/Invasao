@@ -132,7 +132,7 @@ class Search_model extends CI_Model
                                              <div class="col-md-9 col-sm-6 col-xs-5">
                                                     <div class="wrapper-box-title">'.$row['nome']. ' ' . $row['sobrenome'] .'</div>
                                                     <div class="wrapper-box-description">
-                                                            <i>From Belo Horizonte</i>
+                                                            <i></i>
                                                     </div>
                                              </div>
                                              <div class="col-md-2 col-sm-3 col-xs-4" align="right">'.$button.'</div>    
