@@ -20,7 +20,7 @@ PS do Projeto
 
 
 Página de Login :
-![paginaInicial-Invasao](https://user-images.githubusercontent.com/54550561/118534985-476b8f80-b720-11eb-886b-17de894a5c0f.jpg)
+(https://user-images.githubusercontent.com/54550561/118534985-476b8f80-b720-11eb-886b-17de894a5c0f.jpg)
 
 Página Principal/Timeline 
 ![contaLogada-Invasao](https://user-images.githubusercontent.com/54550561/118535372-c5c83180-b720-11eb-8e3d-80d05232a98c.jpg)
