@@ -30,7 +30,17 @@
             <div class="countryList" id="countryList" style="position: absolute; width: 235px; z-index: 1001;"></div>
         </form>
       </div>
-      <ul class="nav navbar-nav navbar-right">
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle" id="req_amigo_not" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span id="req_amigo_naoLida"></span>
+                <i class="fa fa-user-plus fa-2" aria-hidden="true"></i>
+                <span class="caret"></span>
+            </a>
+            <div class="dropdown-menu p-4" id="lista_reqAmg" aria-labelledby="dropdownMenuButton">
+
+            </div> 
+        </div>        
+      <!-- <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="req_amigo_not" aria-expanded="true">
                     <span id="req_amigo_naoLida"><span>
@@ -41,7 +51,7 @@
 
               </ul>
           </li>
-      </ul>	
+      </ul>	 -->
       <ul class="navbar-nav px-3">
         <li class="nav-item text nowrap">
           <a href="" class="nav-link" style="color:white;"><?= $usuario['nome'] . ' ' . $usuario['sobrenome'];  ?></a>

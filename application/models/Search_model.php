@@ -254,15 +254,23 @@ class Search_model extends CI_Model
                             {
                                       $nomeUsuario = $usuario['nome'];  
                             }
-
-                            $res .= '
-                            <li>
-                                <b class="text-primary">'.$nomeUsuario.'</b>
-                                <button type="button" name="acc_friendReq_Btn" class="btn-primary btn-xs pull-right acc_friendReq_Btn" data-requestId="'.$row["requestId"].'" id="acc_friendReq_Btn_'.$row['requestId'].'">
-                                        <i class="fa fa-plus" aria-hidden="true"></i> Aceitar</button>
-                                </button>
-                            </li>
+                            $res .= '                                 
+                                 <a href="#" class="dropdown-item">
+                                        <b class="text-primary">'.$nomeUsuario.'</b>
+                                        <button type="button" name="acc_friendReq_Btn" class="btn btn-primary btn-xs" data-requestId="'.$row["requestId"].'" id="acc_friendReq_Btn_'.$row['requestId'].'">
+                                             <i class="fa fa-plus" aria-hidden="true"></i>Aceitar
+                                        </button>
+                                 </a>                                    
                             ';
+
+                         //    $res .= '
+                         //    <li>
+                         //        <b class="text-primary">'.$nomeUsuario.'</b>
+                         //        <button type="button" name="acc_friendReq_Btn" class="btn-primary btn-xs pull-right acc_friendReq_Btn" data-requestId="'.$row["requestId"].'" id="acc_friendReq_Btn_'.$row['requestId'].'">
+                         //                <i class="fa fa-plus" aria-hidden="true"></i> Aceitar</button>
+                         //        </button>
+                         //    </li>
+                         //    ';
                   }
                   echo $res;  
 

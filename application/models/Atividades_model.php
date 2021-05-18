@@ -23,13 +23,30 @@ class Atividades_model extends CI_Model
           {
                $usuarioId = $this->session->userdata("usuario_logado")['id'];
 
-               $sqlQuery = "SELECT p.id, p.nome, p.sobrenome, p.descricao FROM timelinef p JOIN pedidos_amizade f 
-                            ON p.id_usuario = f.req_to_id OR p.id_usuario = f.req_from_id
-                            WHERE f.req_to_id = 161 OR f.req_from_id = 161
-                            GROUP BY p.id DESC";
+               $sqlQuery = "SELECT timelinef.nome, timelinef.sobrenome, timelinef.id, timelinef.descricao, pedidos_amizade.req_from_id, pedidos_amizade.req_to_id FROM timelinef 
+                            INNER JOIN pedidos_amizade ON pedidos_amizade.req_from_id = timelinef.id_usuario 
+                            OR pedidos_amizade.req_to_id = timelinef.id_usuario 
+                            WHERE (pedidos_amizade.req_from_id = '".$usuarioId."' OR pedidos_amizade.req_to_id = '".$usuarioId."') 
+                            AND pedidos_amizade.status_req = 'Aceito' 
+                            GROUP BY timelinef.descricao 
+                            ORDER BY pedidos_amizade.requestId DESC";
 
                $query = $this->db->query($sqlQuery);        
 
+               if ( $query->num_rows() == 0 )
+               {
+                    $this->db->where("id_usuario", $usuarioId);
+                    $query = $this->db->get('timelinef');
+
+                    if ( $query->num_rows() > 0 )
+                    {
+                         return $query->result();
+                    }
+                    else
+                    {
+                         return false;
+                    }
+               }
                //print_r($query->result_array());
 
                return $query->result_array();
